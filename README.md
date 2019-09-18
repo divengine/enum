@@ -1,10 +1,17 @@
 # Div PHP Enum Solution 1.0.0
 
 This is a PHP Enum Solution using classes and type hinting. 
+**Also you can build a taxonomies of enums!**.
 
 An enumeration type, "enum" for short, is a data type to categorise named 
 values. Enums can be used instead of hard coded strings to represent, 
 for example, the status of a blog post in a structured and typed way.
+
+In July 2019, I wrote a gist searching a solution for this. 
+
+https://gist.github.com/rafageist/aef9825b7c935cdeb0c6187a2d363909/revisions
+
+Now I am converting the gist in a real project.
 
 ## The problem
 
@@ -38,15 +45,15 @@ analysis benefits like auto completion and refactoring.
 Use PHP! 
 
 The class **divengine\enum** help you, but remember: 
-_the most important solution is the concept of this library_:
+_the most important solution is the concept of this library_.
 
-With this, you can solves the following problems:
+With this class, you can solves the following problems:
  
 1. Constants with different names and equal value can be used as function arguments
 2. Lose static analysis benefits like auto completion and refactoring
 3. Maintaining duplicated code when use docblock type hints to solve the first problem
 
-We'd have built-in enums in PHP ! But, for now, this is a solution.
+We need have built-in enums in PHP ! But, for now, this is a solution.
 
 ## Example
 
