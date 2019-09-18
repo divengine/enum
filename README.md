@@ -1,7 +1,7 @@
 # Div PHP Enum Solution 1.0.0
 
 This is a PHP Enum Solution using classes and type hinting. 
-**Also you can build a taxonomies of enums!**.
+**Also you can build a taxonomies of enums!**
 
 An enumeration type, "enum" for short, is a data type to categorise named 
 values. Enums can be used instead of hard coded strings to represent, 
