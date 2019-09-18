@@ -55,6 +55,25 @@ With this class, you can solves the following problems:
 
 We need have built-in enums in PHP ! But, for now, this is a solution.
 
+# Installation
+
+### Composer:
+```
+composer require divengine\enum;
+```
+
+### Manual:
+
+Clone the repo:
+```
+git clone https://github.com/divengine/enum
+```
+
+Include the lib:
+```php
+include "/path/to/divengine/enum/src/folder/enum.php";
+```
+
 ## Example
 
 First, define your enums. You can build a taxonomy !!!:
