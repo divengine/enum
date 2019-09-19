@@ -1,4 +1,4 @@
-# Div PHP Enum Solution 1.0.0
+# Div PHP Enum Solution 1.0.1
 
 This is a PHP Enum Solution using classes and type hinting. 
 **Also you can build a taxonomies of enums!**
@@ -82,7 +82,7 @@ First, define your enums. You can build a taxonomy !!!:
 ```php
 <?php
 
-namespace Enums;
+namespace MyEnums;
 
 use divengine\enum;
 
@@ -93,6 +93,7 @@ class ICE extends ExtremeTemperature {}
 
 class NormalTemperature extends Temperature {/* Father of all types of normal temperatures */}
 class HOT extends NormalTemperature {}
+class COOL extends NormalTemperature {}
 class COLD extends NormalTemperature {}
 ```
 
@@ -100,6 +101,9 @@ Second use your enums:
 
 ```php
 <?php
+
+use MyEnums;
+
 
 // Constants are good tricks, but optional
 const COOL = COOL::class;

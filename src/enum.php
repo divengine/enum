@@ -20,7 +20,7 @@ namespace divengine;
  *
  * @package divengine/enum
  * @author  Rafa Rodriguez @rafageist [https://rafageist.github.io]
- * @version 1.0.0
+ * @version 1.0.1
  *
  * @link    https://divengine.com/enum
  * @link    https://github.com/divengine/enum
@@ -30,7 +30,7 @@ namespace divengine;
 abstract class enum
 {
     /** @var string */
-    static private $__version = '1.0.0';
+    static private $__version = '1.0.1';
 
     /** @var mixed */
     public $value;
@@ -42,6 +42,16 @@ abstract class enum
      */
     public static function getVersion() {
         return self::$__version;
+    }
+
+    /**
+     * Return new instance
+     *
+     * @return mixed
+     */
+    public static function instance() {
+        $className = static::class;
+        return new $className();
     }
 
     /**
