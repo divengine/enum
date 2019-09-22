@@ -1,4 +1,4 @@
-# Div PHP Enum Solution 1.0.1
+# Div PHP Enum Solution 1.0.2
 
 This is a PHP Enum Solution using classes and type hinting. 
 **Also you can build a taxonomies of enums!**
