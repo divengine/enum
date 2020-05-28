@@ -11,7 +11,7 @@ In July 2019, I wrote a gist searching a solution for this.
 
 https://gist.github.com/rafageist/aef9825b7c935cdeb0c6187a2d363909/revisions
 
-Now I am converting the gist in a real project.
+Then I convert the gist in a real project. https://www.phpclasses.org/package/11366-PHP-Implement-enumerated-values-using-classes.html
 
 ## The problem
 
