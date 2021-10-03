@@ -97,7 +97,7 @@ class COOL extends NormalTemperature {}
 class COLD extends NormalTemperature {}
 ```
 
-Second use your enums:
+Second, use your enums:
 
 ```php
 <?php
@@ -244,4 +244,4 @@ Enjoy!
 
 Eng. Rafa Rodriguez
 
-https://rafageist.github.io
+https://rafageist.com
