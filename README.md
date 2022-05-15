@@ -15,12 +15,9 @@ Then I convert the gist in a real project. https://www.phpclasses.org/package/11
 
 ## The problem
 
-PHP doesn't have a native enum type. It offers a very basic SPL implementation
-(https://www.php.net/manual/en/class.splenum.php), but this really doesn't cut 
-the mustard.
- 
-Some solutions using constants, but not resolve the problem. 
-How to validate HOT or COLD ?
+Before 8.1, PHP didn't have a native enum type, only a very basic SPL implementation (https://www.php.net/manual/en/class.splenum.php), but this really doesn't cut the mustard. Some solutions using constants, but not resolve the problem. How to validate HOT or COLD ?
+
+From 8.1, PHP have a enums implementation (https://www.php.net/manual/en/language.types.enumerations.php). And now you can combine this solution with the new features of PHP.
 
 ```php
 <?php
