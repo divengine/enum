@@ -237,6 +237,8 @@ someStuff( new HOT() );
 
 Enjoy!
 
+Documentation: https://divengine.org
+
 -- 
 
 @rafageist
