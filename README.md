@@ -132,7 +132,7 @@ function WhatShouldIdo(Temperature $temperature)
             switch ($temperature) {
 
                 case HOT::class: // compare using classname
-                    return "Drink a bear :D";
+                    return "Drink a beer :D";
 
                 case COOL or AllTemperatures::COOL: // compare using constants
                     return "Just go away !";
