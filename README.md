@@ -51,7 +51,7 @@ With this class, you can solves the following problems:
  
 1. Constants with different names and equal value can be used as function arguments
 2. Lose static analysis benefits like auto completion and refactoring
-3. Maintaining duplicated code when use docblock type hints to solve the first problem
+3. Maintaining duplicated code when use docblock type hints to solve the second problem
 
 We need have built-in enums in PHP ! But, for now, this is a solution.
 
