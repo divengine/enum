@@ -11,16 +11,15 @@ In July 2019, I wrote a gist searching a solution for this.
 
 https://gist.github.com/rafageist/aef9825b7c935cdeb0c6187a2d363909/revisions
 
-Now I am converting the gist in a real project.
+Then I convert the gist in a real project. https://www.phpclasses.org/package/11366-PHP-Implement-enumerated-values-using-classes.html
 
 ## The problem
 
-PHP doesn't have a native enum type. It offers a very basic SPL implementation
-(https://www.php.net/manual/en/class.splenum.php), but this really doesn't cut 
-the mustard.
- 
-Some solutions using constants, but not resolve the problem. 
-How to validate HOT or COLD ?
+Before 8.1, PHP didn't have a native enum type, only a very basic SPL implementation (https://www.php.net/manual/en/class.splenum.php), but this really doesn't cut the mustard. Some solutions using constants, but not resolve the problem. How to validate HOT or COLD ?
+
+From 8.1, PHP have a enums implementation (https://www.php.net/manual/en/language.types.enumerations.php). 
+
+And now you can combine this solution with the new features of PHP.
 
 ```php
 <?php
@@ -97,7 +96,7 @@ class COOL extends NormalTemperature {}
 class COLD extends NormalTemperature {}
 ```
 
-Second use your enums:
+Second, use your enums:
 
 ```php
 <?php
@@ -133,7 +132,7 @@ function WhatShouldIdo(Temperature $temperature)
             switch ($temperature) {
 
                 case HOT::class: // compare using classname
-                    return "Drink a bear :D";
+                    return "Drink a beer :D";
 
                 case COOL or AllTemperatures::COOL: // compare using constants
                     return "Just go away !";
@@ -238,10 +237,12 @@ someStuff( new HOT() );
 
 Enjoy!
 
+Documentation: https://divengine.org
+
 -- 
 
 @rafageist
 
 Eng. Rafa Rodriguez
 
-https://rafageist.github.io
+https://rafageist.com
